@@ -62,6 +62,3 @@ class languageDetection
 		return $browser_language;
 	}
 }
-
-$test = new languageDetection();
-print_r( $test->getLanguage() );
