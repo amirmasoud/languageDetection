@@ -1,0 +1,21 @@
+{
+    "name": "amirmasoud/languageDetection",
+    "description": "return end user language",
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "amirmasoud sheidayi",
+            "email": "amirmasoud@chakosh.ir"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AmirMasoud\\LanguageDetection\\": "src"
+        }
+    }
+}
