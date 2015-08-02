@@ -4,15 +4,15 @@ namespace AmirMasoud\LanguageDetection;
 /**
 * 
 */
-class languageDetection
+class Language
 {
 	/**
 	 * Default language if we couldn't determine user language.
 	 * @var string
 	 */
-	protected $fallback_language = 'en';
+	protected static $fallback_language = 'en';
 
-	public function getLanguage()
+	public static function get()
 	{
 		/**
 		 * define new var: Prior PHP 5.5 has some bugs with with empty funtion.
@@ -57,7 +57,7 @@ class languageDetection
 		 * if we couldn't determin user language, we will use fallback language
 		 */
 		if( $browser_language == '' )
-			$browser_language = $this->fallback_language;
+			$browser_language = self::$fallback_language;
 
 		return $browser_language;
 	}
