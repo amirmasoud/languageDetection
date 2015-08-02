@@ -7,7 +7,7 @@ class languageDetectionTest extends PHPUnit_Framework_TestCase
 
 	public function testLanguageDetectionGetLanguage()
 	{ 
-		$this->assertInternalType( 'string', Language::getLanguage() );
+		$this->assertInternalType( 'string', Language::get() );
 	}
  
 }
