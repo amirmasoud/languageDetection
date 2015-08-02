@@ -1,5 +1,5 @@
 {
-    "name": "amirmasoud/languageDetection",
+    "name": "amirmasoud/language-detection",
     "description": "return end user language",
     "require-dev": {
         "phpunit/phpunit": "4.0.*"
